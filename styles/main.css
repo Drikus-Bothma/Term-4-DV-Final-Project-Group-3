@@ -1,22 +1,20 @@
 body {
-    background-image: url(../assets/3592227.jpg);
+    background-image: url(../assets/3592227\ copy.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 form {
     width: 35%;
-    height: 370px;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-bottom: 110px;
     background-color: rgba(97, 97, 97, 0.8);
     color: white;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-top: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     border-radius: 100px;
 }
 
@@ -29,6 +27,11 @@ form {
     padding-left: 15px;
     border: none;
     border-radius: 10px;
+}
+
+.logo{
+    margin-left: 38%;
+    margin-top: 50px;
 }
 
 select, button {
@@ -54,9 +57,8 @@ select, button {
 }
 
 .signIn-Btn{
-    width: 135px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     border-radius: 10px;
-
     float: right;
 }
