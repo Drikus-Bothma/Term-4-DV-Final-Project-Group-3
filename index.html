@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Globe</title>
@@ -8,9 +8,33 @@
     <!-- Style Sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Nunito+Sans:opsz,wght@6..12,300&family=Playfair:ital,wght@1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+    <div class="logo">
+        <img src="assets/Globe Logo No background 1.png">
+    </div>
     
+    <form>
+        <h3 style="text-align: center; font-weight: bolder; font-size: 70px; font-family: 'Didot', serif;" >Sign In</h3>
+    </br>
+        <p style="font-size: large; font-family: 'Didot', serif;">Username:</p>
+        <input class="input-el" type="text" required>
+        <p style="font-size: large; font-family: 'Didot', serif;">Password:</p>
+        <input class="input-el" type="password" required> 
+
+       <div class="signUp-Btn">
+        <a href="pages/signUpPage.html"><button class="formBtn1" type="button" style="font-family: 'Didot', serif;">Sign Up</button></a>
+       </div>
+       <div class="signIn-Btn">
+        <a href="pages/home.html"><button class="formBtn2" type="submit" style="font-family: 'Didot', serif;">Sign In</button></a>
+       </div>
+    </form>
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
