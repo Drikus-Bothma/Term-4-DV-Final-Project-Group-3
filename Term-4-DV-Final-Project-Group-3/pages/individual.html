@@ -3,14 +3,112 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Globe</title>
+    <title>Globe Individual Movie Page</title>
 
     <!-- Style Sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/individual.css">
 </head>
 <body>
+  
+  <!-- Nav -->
+
+  <nav class="navbar fixed-top">
+    <div class="logo">
+      <img src="/assets/logo.png" alt="Logo" height="60px">
+  </div>
+  
+    <div class="container">
+      
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="/pages/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/library.html">Movie Library</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/watchlist.html">My Watchlist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Sign Out</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+   <!------------------------------->
+
+   <!-- Movie Poster -->
+
+  <div id="carousel" class="carousel slide">
     
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="https://m.media-amazon.com/images/I/71iZLrkVhDL.jpg" class="individual w-100" alt="...">
+        <div class="carousel-caption text-white">
+          <h3>Hamilton</h3>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Page Content -->
+
+  <div class="individual-container">
+    
+    <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="about-title">About Hamilton</h1>
+          <section class="movie-about">
+            <p>
+                "Hamilton" is a groundbreaking musical that tells the story of Alexander Hamilton, one of the Founding Fathers of the United States. This musical, created by Lin-Manuel Miranda, combines hip-hop, R&B, and traditional show tunes to bring history to life in a unique and engaging way.
+            </p>
+            <p>
+                Set against the backdrop of the American Revolution, "Hamilton" explores Hamilton's journey from being an immigrant to becoming a key figure in the creation of the United States. The musical delves into themes of ambition, love, and the pursuit of the American Dream.
+            </p>
+            <p>
+                Featuring a diverse cast and memorable songs, "Hamilton" has received critical acclaim and has become a cultural phenomenon. It has won numerous awards, including multiple Tony Awards and a Pulitzer Prize.
+            </p>
+            <p>
+                Join us on an extraordinary journey through history as we revisit the life and legacy of Alexander Hamilton in this captivating musical masterpiece.
+            </p>
+        </section>
+        </div>
+
+        <div class="col-12 col-md-6" >
+
+          <section class="movie-cast">
+            <h2 class="cast-title">Cast</h2>
+            <ul class="cast-list">
+                <li><strong>Lin-Manuel Miranda</strong> as Alexander Hamilton</li>
+                <li><strong>Leslie Odom Jr.</strong> as Aaron Burr</li>
+                <li><strong>Phillipa Soo</strong> as Eliza Schuyler Hamilton</li>
+                <li><strong>Renée Elise Goldsberry</strong> as Angelica Schuyler</li>
+                <li><strong>Daveed Diggs</strong> as Marquis de Lafayette / Thomas Jefferson</li>
+                <li><strong>Christopher Jackson</strong> as George Washington</li>
+                <li><strong>Jonathan Groff</strong> as King George III</li>
+                <li><strong>Anthony Ramos</strong> as John Laurens / Philip Hamilton</li>
+                <li><strong>Okieriete Onaodowan</strong> as Hercules Mulligan / James Madison</li>
+                <li><strong>Jasmine Cephas Jones</strong> as Peggy Schuyler / Maria Reynolds</li>
+                <li><strong>Thayne Jasperson</strong> as Samuel Seabury</li>
+              
+            </ul>
+        </section>
+        
+           
+        </div>
+    </div>
+</div>
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -18,4 +116,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
+
+<footer>Footer placeholder</footer>
+
 </html>
