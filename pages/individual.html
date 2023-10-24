@@ -22,7 +22,7 @@
       
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="/pages/home.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="/pages/home.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/library.html">Movie Library</a>
@@ -39,6 +39,7 @@
 
   </nav>
 
+
    <!------------------------------->
 
    <!-- Movie Poster -->
@@ -47,7 +48,7 @@
     
     <div class="carousel-inner">
 
-      <div class="carousel-item active">
+      <div class="carousel-item active" id="poster">
         <img src="https://m.media-amazon.com/images/I/71iZLrkVhDL.jpg" class="individual w-100" alt="...">
         <div class="carousel-caption text-white">
           <h3>Hamilton</h3>
@@ -68,8 +69,8 @@
     
     <div class="row">
         <div class="col-12 col-md-6">
-          <h1 class="about-title">About Hamilton</h1>
-          <section class="movie-about">
+          <h1 class="about-title" id="title">About Hamilton</h1>
+          <section class="movie-about" id="about">
             <p>
                 "Hamilton" is a groundbreaking musical that tells the story of Alexander Hamilton, one of the Founding Fathers of the United States. This musical, created by Lin-Manuel Miranda, combines hip-hop, R&B, and traditional show tunes to bring history to life in a unique and engaging way.
             </p>
@@ -82,6 +83,9 @@
             <p>
                 Join us on an extraordinary journey through history as we revisit the life and legacy of Alexander Hamilton in this captivating musical masterpiece.
             </p>
+
+            
+
         </section>
         </div>
 
@@ -89,7 +93,7 @@
 
           <section class="movie-cast">
             <h2 class="cast-title">Cast</h2>
-            <ul class="cast-list">
+            <ul class="cast-list" id="cast">
                 <li><strong>Lin-Manuel Miranda</strong> as Alexander Hamilton</li>
                 <li><strong>Leslie Odom Jr.</strong> as Aaron Burr</li>
                 <li><strong>Phillipa Soo</strong> as Eliza Schuyler Hamilton</li>
@@ -107,6 +111,12 @@
         
            
         </div>
+
+        <br>
+        <br>
+        <br>
+
+        <button id="addToWatchlist" data-movie='{"title": "Hamilton", "image": "https://m.media-amazon.com/images/I/71iZLrkVhDL.jpg"}'>Add to Watchlist</button>
     </div>
 </div>
 
