@@ -38,7 +38,7 @@
             <a href="../index.html"><button class="formBtn1" type="button" style="font-family: 'Didot', serif;">Sign In</button></a>
         </div>
         <div class="signIn-Btn">
-            <a href="home.html"><button class="formBtn2" type="submit" style="font-family: 'Didot', serif;">Sign Up</button></a>
+
         </div>
     </form>
 
@@ -50,13 +50,7 @@
 
     <script>
         function validateForm() {
-            // var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            var confirmPassword = document.getElementById("confirmPassword").value;
 
-            // localStorage.setItem("username", username);
-
-            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/;
             if (!passwordRegex.test(password)) {
                 alert("Password must contain at least one uppercase letter, one lowercase letter, and one number");
                 return false;
@@ -67,7 +61,6 @@
                 return false;
             }
 
-            window.location.href = 'home.html';
 
             return true;
         }
