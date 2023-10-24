@@ -66,7 +66,7 @@ function displayMovies(movies) {
 
     // Add a click event to navigate to a new page with the movie ID in the URL
     card.click(function() {
-      window.location.href = movie.html?id=${movie.id};
+      window.location.href = movie.html?id=$:{movieId};
     });
 
     moviesContainer.append(card);
