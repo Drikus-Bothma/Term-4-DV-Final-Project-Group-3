@@ -50,10 +50,13 @@
 
     <script>
         function validateForm() {
+            // var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             var confirmPassword = document.getElementById("confirmPassword").value;
 
-            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+            // localStorage.setItem("username", username);
+
+            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/;
             if (!passwordRegex.test(password)) {
                 alert("Password must contain at least one uppercase letter, one lowercase letter, and one number");
                 return false;
