@@ -1,65 +1,61 @@
-
-
- 
-  
-  $(document).ready(function(){
-  
+ $(document).ready(function() {
     console.log("Hello");
-
+    
     var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    
-    this.classList.toggle("active");
-
-    
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
+    var i;
+  
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+  
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
     }
-  });
-}
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
+  
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+  
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
     }
-  });
-}
+  
+    let movie = [];
+  
+    const API_URL = "https://api.themoviedb.org/3/movie/popular?api_key=256a35c109969ca8fc077726003b1ca4&language=en-US&page=1";
+  
+   $.ajax({
+      url: API_URL,
+      method: 'GET',
+      dataType: 'json',
+      success: function(data) {
+  
+        movie = data.results;
+        console.log(movie)
+        displayMovies(movie);
+  
+      },
+      error: function(error) {
+        console.error('Error:', error);
+      }
+    });
+  
 
-let movie = [];
-
-const apiUrl = "https://api.themoviedb.org/3/movie/popular?api_key=256a35c109969ca8fc077726003b1ca4&language=en-US&page=1";
-
-$.ajax({
-  url: apiUrl,
-  method: 'GET',
-  dataType: 'json',
-  success: function(data) {
-    
-    movie = data.results;
-    console.log(movie)
-    displayMovies(movie);
-    
-  },
-  error: function(error) {
-    console.error('Error:', error);
-  }
-}).done(function (){
-
-})
+document.addEventListener('DOMContentLoaded', function() {
+  alert("Welcome To Globe Streaming, (User)!");
+});
 
 const moviesContainer = $('#moviesContainer');
 
