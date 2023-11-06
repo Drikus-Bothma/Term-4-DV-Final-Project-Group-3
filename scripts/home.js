@@ -1,4 +1,4 @@
- $(document).ready(function() {
+$(document).ready(function() {
     console.log("Hello");
     
     var acc = document.getElementsByClassName("accordion");
@@ -67,13 +67,14 @@ function displayMovies(movie) {
     var moviePosterPath = movie.poster_path;
     let imageSrc = posterBaseUrl + moviePosterPath;
     const card = $(`
-      <div class="col-md-2 md-3">
-        <div class="card">
-          <img src="${imageSrc}" class="card-img-top" alt="${movie.name}">
-          <div class="card-body">
-          </div>
-        </div>
+    <div class="col-md-2 md-3">
+    <div class="card">
+      <img src="${imageSrc}" class="card-img-top" alt="${movie.name}">
+      <div class="card-body">
+        <h5 class="card-title">${movie.title}</h5>
       </div>
+    </div>
+  </div>
     `);
 
     card.click(function() {
