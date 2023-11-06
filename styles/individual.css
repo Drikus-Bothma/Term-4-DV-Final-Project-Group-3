@@ -113,3 +113,28 @@ button{
     color: white;
     
 }
+
+.icony{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconf{
+    margin-bottom: 1%;
+    margin-left: 3%;
+
+  }
+
+  .icont{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconi{
+    margin-left: 3%;
+  }
+  
+  .globefoot{
+    text-align: center;
+    margin-top: 1%;
+  }
