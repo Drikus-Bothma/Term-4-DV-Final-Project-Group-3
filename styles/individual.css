@@ -1,0 +1,142 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #011a1a;
+}
+
+.full-height{
+    height: 900px;
+}
+
+.logo{
+    margin-left: 50%;
+    height: 100px;
+    width: 3%;
+    margin-top: -0.5%;
+}
+
+.logo :hover{
+    opacity: 10%;
+}
+
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.895);
+    float: left;
+
+}
+
+.nav-link:hover{
+    color: #DBAD55;
+    float: left;
+    
+}
+
+
+.nav-link.active{
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.036);
+    
+}
+
+nav{
+    width: 100%;
+    height: 9%;
+    background-color: #004040;
+}
+
+
+
+.container{
+    margin-left: 1%;
+    margin-top: -8%;
+    
+}
+
+.carousel-item{
+    background-color: #e9f9ed;
+    background-position: center;
+}
+
+.individual{
+    height: 600px;
+
+}
+
+.carousel-caption {
+    background: rgba(1, 26, 26, 0.6);
+    text-align: center;
+    width: 100%; 
+    bottom: 0; 
+    left: 0; 
+    padding: 20px; 
+    color: #d5d7d7; 
+    font-size: 24px; 
+}
+
+.about-title {
+   text-align: center;
+   color: white;
+}
+
+.movie-about {
+    padding-left: 10%;
+}
+
+.cast-title {
+    text-align: center;
+    padding-left: 25%;
+    color: white;
+}
+
+.cast-list {
+    padding-left: 45%;
+}
+
+footer{
+    height: 6%;
+    background-color: #004040;
+    margin-top: 5%;
+}
+
+
+button{
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #18382B;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.icony{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconf{
+    margin-bottom: 1%;
+    margin-left: 3%;
+
+  }
+
+  .icont{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconi{
+    margin-left: 3%;
+  }
+  
+  .globefoot{
+    text-align: center;
+    margin-top: 1%;
+  }
+
