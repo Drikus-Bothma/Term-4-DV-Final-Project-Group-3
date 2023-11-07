@@ -3,11 +3,11 @@ What we used to code this prject was HTML, CSS and Javascript.
 
 The work was split up between us like this:
 Drikus Bothma;
-Sign up (all pages), Movie library (all pages)
+Sign up (all pages), Movie library (all pages).
 Anemi Breytenbach;
-Home (all pages), Watchlist (html & css)
+Home (all pages), Watchlist (html & css).
 Kira Groenewald;
-Individual (all pages), Watchlist (Java)
+Individual (all pages), Watchlist (Java).
 
 Screenshots of the project:
 Sign Up:
