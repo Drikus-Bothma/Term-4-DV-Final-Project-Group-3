@@ -1,6 +1,14 @@
 This group project was created by Anemi Breytenbach, Kira Groenewald and Drikus Bothma for our DV 100 class in term 4.
 What we used to code this prject was HTML, CSS and Javascript. 
 
+The work was split up between us like this:
+Drikus Bothma
+Sign up (all pages), Movie library (all pages)
+Anemi Breytenbach
+Home (all pages), Watchlist (html & css)
+Kira Groenewald
+Individual (all pages), Watchlist (Java)
+
 Screenshots of the project:
 Sign Up:
 ![image](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/7b9d9e2a-43df-491a-8279-818f4019d132)
