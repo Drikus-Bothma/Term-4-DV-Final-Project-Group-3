@@ -2,11 +2,11 @@ This group project was created by Anemi Breytenbach, Kira Groenewald and Drikus 
 What we used to code this prject was HTML, CSS and Javascript. 
 
 The work was split up between us like this:
-Drikus Bothma
+Drikus Bothma;
 Sign up (all pages), Movie library (all pages)
-Anemi Breytenbach
+Anemi Breytenbach;
 Home (all pages), Watchlist (html & css)
-Kira Groenewald
+Kira Groenewald;
 Individual (all pages), Watchlist (Java)
 
 Screenshots of the project:
