@@ -3,13 +3,17 @@ What we used to code this prject was HTML, CSS and Javascript.
 
 Screenshots of the project:
 Sign Up:
+![image](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/7b9d9e2a-43df-491a-8279-818f4019d132)
 
 Homescreen:
 ![Screenshot (5758)](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/8f6f294a-9c69-42fe-9513-81b9c0a05d67)
 
 Library:
+![image](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/12b82702-6388-40ee-87b8-644d4e23fddd)
 
 Individual Movie:
+![image](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/e4f6b2cd-142f-4ca8-bf75-97728f1f5a3a)
+
 
 Watch List:
 ![Screenshot (5759)](https://github.com/Drikus-Bothma/Term-4-DV-Final-Project-Group-3/assets/125360666/07787f26-e58c-4406-825b-6836fafc1a73)
