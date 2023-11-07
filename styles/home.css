@@ -1,0 +1,200 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #000900;
+}
+
+.full-height{
+    height: 900px;
+}
+
+.hero-image {
+    height: 900px; 
+    position: relative;
+    width: 120%;
+    margin-left: -3%;
+}
+
+.second{
+    height: 900px; 
+    position: relative;
+    width: 110%;
+    margin-left: -3%;
+}
+
+.third{
+    height: 900px; 
+    position: relative;
+    width: 110%;
+    margin-left: -3%;
+}
+
+.logo{
+    margin-left: 50%;
+    height: 100px;
+    width: 3%;
+    margin-top: -0.5%;
+}
+
+.logo :hover{
+    opacity: 10%;
+}
+
+button{
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #18382B;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.895);
+    float: left;
+
+}
+
+.nav-link:hover{
+    color: rgb(189, 170, 0);
+    float: left;
+    
+}
+
+
+.nav-link.active{
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.036);
+    
+}
+
+nav{
+    width: 100%;
+    height: 9%;
+    background-color: #004040;
+}
+
+.container{
+    margin-left: 1%;
+    margin-top: -8%;
+    
+}
+
+
+.accordion{
+    background-color: #004040;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 3%;
+
+  }
+
+  .active, .accordion:hover{
+    background-color: #005555;
+  }
+  
+  .carousel-item{
+    background-color: #e9f9ed;
+    background-position: center;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next{
+    left: 84px;
+}
+
+.panel{
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0.414);
+    max-height: 0;
+    overflow: hidden;
+    display: none;
+    transition: max-height 0.2s ease-out;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 25px;
+    margin-bottom: 2%;
+}
+
+.containermovies{
+    text-align: center;
+    
+}
+
+#col-md-2 md-3{
+    border-radius: 5%;
+}
+
+.titlemovies h1{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+footer{
+    height: 6%;
+    background-color: #00404062;
+    margin-top: 5%;
+    
+}
+
+.card {
+    background-color: #000900;
+    border-color: #000900;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .icony{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconf{
+    margin-bottom: 1%;
+    margin-left: 3%;
+
+  }
+
+  .icont{
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .iconi{
+    margin-left: 3%;
+  }
+  
+  .globefoot{
+    text-align: center;
+    margin-top: 1%;
+  }
